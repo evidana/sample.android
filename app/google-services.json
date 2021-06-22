@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "885683161367",
+    "project_id": "sample-ios-42228",
+    "storage_bucket": "sample-ios-42228.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885683161367:android:32a771c01724970b3fcf52",
+        "android_client_info": {
+          "package_name": "com.evidana.sample.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885683161367-f0dg1fptl3g887vtl2l7g7cq8ckfh8bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCpdosV_4ffSHHqzgNTz65tMWsP7tsmpY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885683161367-f0dg1fptl3g887vtl2l7g7cq8ckfh8bq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "885683161367-nqmpfkejviduebn6nr69kjhn2b2ah4ub.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.evidana.sample.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
