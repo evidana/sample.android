@@ -35,12 +35,14 @@ class MainActivity : AppCompatActivity() {
         val cymbal = Product("cymbal 1", "SKU_124", 125.99, 1, "USD")
 
         var guitarBundle = Bundle()
-        guitarBundle.putString(FirebaseAnalytics.Param.ITEM_ID, guitar.name)
+        guitarBundle.putString(FirebaseAnalytics.Param.ITEM_NAME, guitar.name)
+        guitarBundle.putString(FirebaseAnalytics.Param.ITEM_ID, guitar.sku)
         guitarBundle.putDouble(FirebaseAnalytics.Param.PRICE, guitar.price)
         guitarBundle.putInt(FirebaseAnalytics.Param.QUANTITY, guitar.quantity)
         guitarBundle.putString(FirebaseAnalytics.Param.CURRENCY, guitar.currency)
 
         var cymbalBundle = Bundle()
+        cymbalBundle.putString(FirebaseAnalytics.Param.ITEM_NAME, cymbal.name)
         cymbalBundle.putString(FirebaseAnalytics.Param.ITEM_ID, cymbal.name)
         cymbalBundle.putDouble(FirebaseAnalytics.Param.PRICE, cymbal.price)
         cymbalBundle.putInt(FirebaseAnalytics.Param.QUANTITY, cymbal.quantity)
